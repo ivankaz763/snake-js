@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;;
+
+}
+body{
+	margin: 0;
+	height: 100%;
+	background-image: url(img/body-background.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+#score{
+	font-size: 2.5rem;
+	font-weight: bold;
+	width: 632px;
+	height: 60px;
+	margin: 30px auto;
+
+	background-color: #ffdd89;
+	-webkit-background-size: cover;
+	background-size: 100% auto;
+	text-align: center;
+		border-radius: 10px 10px 0px 0px;
+
+}
+#canvas{
+	width: 632px;
+	height: 632px;
+	display: block;
+	margin: 30px auto;
+	margin-top: -30px;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #ffdd89;
+	-webkit-background-size: cover;
+	background-size: 100% auto;
+
+}
